@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/mine/mine",
+    "pages/home/home",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "美团外卖",
+    "navigationBarBackgroundColor": "#58bc58",
+    "backgroundColor": "#ffffff"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "测试"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

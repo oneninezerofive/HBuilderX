@@ -1,0 +1,1 @@
+<view><view class="_p">{{name}}</view><input data-event-opts="{{[['input',[['__set_model',['','name','$event',[]]]]]]}}" value="{{name}}" bindinput="__e"/><button data-event-opts="{{[['tap',[['chooseImage',['$event']]]]]}}" bindtap="__e">选取照片</button></view>
